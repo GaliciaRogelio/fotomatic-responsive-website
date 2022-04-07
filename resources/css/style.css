@@ -36,6 +36,12 @@ html {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .main-content {
+    display: grid;
+  }
+}
+
 /* Header */
 
 header {
@@ -275,7 +281,7 @@ header .mobile {
 @media only screen and (max-width: 600px) {
   #sign-up-section {
     height: 20rem;
-    /* background-position: right; */
+    background-position: right;
   }
 
   #sign-up-cta h1 {
@@ -505,7 +511,7 @@ header .mobile {
 }
 
 @media only screen and (max-width: 600px) {
-  #quotes-section content {
+  #quotes-section .content {
     flex-flow: column;
     padding: 1.875rem .625rem;
   }
